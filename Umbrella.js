@@ -13,6 +13,7 @@ class Umbrella{
     display(){
         var pos=this.body.position;
         //rectMode(CENTER);
+        fill("white");
         rect(pos.x,pos.y,this.width,this.height);
         image(umbrellaIMG,this.body.position.x,this.body.position.y);
     }
